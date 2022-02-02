@@ -12,5 +12,5 @@ while True:
             print(f"{int(num):02} is {month[int(num)]} month, {season[int(num)]}")
         elif int(num) > 12:
             print("Enter number from 1 to 12 or 'stop' to stop!!!")
-    elif type(num) == str or int(num) > 12:
+    elif type(num) == str:
         print("Enter number from 1 to 12 or 'stop' to stop!!!")
