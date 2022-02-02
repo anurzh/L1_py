@@ -12,4 +12,4 @@ print(f"In your entered order: {lst}")
 for order in range(len(lst) // 2):
     lst[j], lst[j + 1] = lst[j + 1], lst[j]  # Подсмотрел в интернете
     j += 2
-print(f"Int changed order: {lst}")
+print(f"In changed order: {lst}")
