@@ -10,7 +10,7 @@ while True:
     elif num.isdigit():
         if 1 <= int(num) <= 12:
             print(f"{int(num):02} is {month[int(num)]} month, {season[int(num)]}")
-        elif int(num) > 12:
+        elif int(num) > 12 or int(num) <= 0:
             print("Enter number from 1 to 12 or 'stop' to stop!!!")
     elif type(num) == str:
         print("Enter number from 1 to 12 or 'stop' to stop!!!")
