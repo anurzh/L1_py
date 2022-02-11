@@ -2,7 +2,7 @@ def divide(a, b):
     try:
         num_div = int(a) / int(b)
     except ValueError:
-        return "Erorr"
+        return "Error"
     return (num_div)
 
 
